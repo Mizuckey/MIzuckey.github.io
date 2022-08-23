@@ -1,0 +1,78 @@
+body{
+    width:960px;
+    padding: 4%;
+    font-size: 0.9rem;
+}
+
+img{
+    max-width: 100%;
+}
+
+/*header*/
+.container h1{
+    float:left;
+    font-weight:normal;
+    color:white;
+    background-color: black;
+    width: 120px;
+    padding: 20px;    
+}
+
+.container li{
+    list-style: none;
+    float: right;
+    padding:20px
+}
+.container li{
+    margin:10px;
+}
+
+/*main*/
+.mainvisual{
+    width: 100%;
+    max-width: 1920px;
+    height: 600px;
+    object-fit: cover;
+}
+
+.about h1{
+    text-align:center;
+}
+
+.about img{
+    width:200px;
+    height: 200px;
+    border-radius: 100px;
+    object-fit: cover;
+}
+
+.profile h2{
+    display: inline-block;
+    text-align:left;
+}
+
+.about span{
+    font-weight: normal;
+}
+
+.hobby{
+    width:100%;
+    margin:0 auto;
+}
+.hobby h1{
+    text-align: center;
+}
+
+.hobby img{
+    width: 200px;
+    padding: 20px;
+}
+.hobby li{
+    float: left;
+    list-style: none;
+}
+
+/*footer*/
+footer p{
+    text-align: center;
+}
